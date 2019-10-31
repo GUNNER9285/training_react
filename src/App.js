@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
+import Header from './compoents/Header';
+import Content from './compoents/Content';
+import Footer from './compoents/Footer';
 
 class App extends Component {
     render() {
-        var myStyle = {
-            fontSize: 200,
-            color: '#0000FF'
-        }
         return (
             <div>
-                <h1 style={myStyle}> React Training </h1>
+                <Header/>
+                <Content/>
+                <Footer/>
             </div>
         );
     }
