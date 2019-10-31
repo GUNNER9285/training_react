@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-                <Content/>
+                <Content title="unit 1: " name="create App " date="- 30/10/19"/>
                 <Footer/>
             </div>
         );
