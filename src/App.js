@@ -34,8 +34,6 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-                <Content title="unit 1: " name="create App " date="- 30/10/19"/>
-                <Footer/>
 
                 <button onClick={this.changeMessage}>{this.state.message}</button>
 
@@ -45,6 +43,9 @@ class App extends Component {
                 <br/><br/>
                 <input type='text' onChange={this.changeType.bind(this)}/>
                 <h1>Welcome : {this.state.type}</h1>
+
+                <Content title="unit 1: " name="create App " date="- 30/10/19"/>
+                <Footer/>
             </div>
         );
     }
